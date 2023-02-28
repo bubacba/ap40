@@ -32,6 +32,7 @@ overflow: hidden;
 
 nav {
         font-size: 23px;
+      position: relative;
 }
 
 /*alineacion por herencia */
@@ -43,7 +44,6 @@ h1,h2 {
 .volver {
         background-color: #333;
         text-align: right;
-        text-decoration: none;
 }
 
 
@@ -62,4 +62,22 @@ footer {
 }
 .text{
     font-family: sans-serif;
+}
+
+
+/*ESTILO BOTON*/
+.button {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+.button:hover {
+    background-color: #3e8e41;
 }
