@@ -19,6 +19,16 @@ header {
 color: blanchedalmond;
 overflow: hidden;
 }
+.menu
+.subtitle{
+    background-color: blueviolet;
+    margin: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+
+ 
+}
 
 .img  {
     text-align: center;
@@ -26,7 +36,6 @@ overflow: hidden;
 
 /*campo para modificar la barra de navegacion */
 .link{
-    color: aliceblue;
         text-decoration: none;
       }
 
@@ -58,6 +67,8 @@ footer {
 }
 .block {
     margin:auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
     width: 500px;  
 }
 .text{
@@ -80,4 +91,24 @@ footer {
 }
 .button:hover {
     background-color: #3e8e41;
+}
+
+/*------ BOTONES FINAL ------ */
+.button2 {
+    background-color: blueviolet; /* Green */
+    border: 1px solid rgb(37, 204, 199);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+.button2:hover {
+    background-color: lightgreen;
+}
+.button2{
+    margin-left: 400PX;
+
 }
